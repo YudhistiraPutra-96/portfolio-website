@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="id">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Contact | Yudhistira Putra Hartanto</title>
+        <link rel="stylesheet" href="style.css">
+
+        <script src="https://kit.fontawesome.com/405ae5b56e.js" crossorigin="anonymous"></script>
+
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap" rel="stylesheet">
+
+        <script src="script.js" defer></script>
+    </head>
+
+    <body>
+        <nav class="navbar">
+            <ul class="nav-links">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="projects.html">Project</a></li>
+                <li><a href="contact.html" class="active">Contact</a></li>
+            </ul>
+
+            <button id="theme-switch">
+                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" height="24px" width="24px" fill="#e3e3e3"><path d="M12,21q-3.75,0-6.38-2.63T3,12T5.63,5.63T12,3q0.35,0 0.69,0.02q0.34,0.02 0.66,0.07q-1.03,0.73-1.64,1.89T11.1,7.5q0,2.25 1.57,3.82T16.5,12.9q1.38,0 2.53-0.61t1.88-1.64q0.05,0.33 0.07,0.66T21,12q0,3.75-2.63,6.38T12,21Z"/></svg>
+                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" height="24px" width="24px" fill="#e3e3e3"><path d="M8.46,15.54Q7,14.08 7,12Q7,9.92 8.46,8.46T12,7t3.54,1.46T17,12t-1.46,3.54T12,17q-2.07,0-3.54-1.46ZM5,13H1V11H5v2Zm18,0H19V11h4v2ZM11,5V1h2V5H11Zm0,18V19h2v4H11ZM6.4,7.75L3.88,5.32L5.3,3.85l2.4,2.5L6.4,7.75Zm12.3,12.4l-2.42-2.52l1.32-1.38l2.52,2.43L18.7,20.15ZM16.25,6.4l2.43-2.52L20.15,5.3l-2.5,2.4l-1.4-1.3ZM3.85,18.7l2.53-2.43L7.75,17.6L5.33,20.13L3.85,18.7Z"/></svg>
+            </button>
+
+            <div class="nav-actions">
+                <button class="hamburger"  type="button" aria-label="Buka menu" aria-expanded="false">
+                <span></span>
+                <span></span>
+                <span></span>
+                </button>
+            </div>
+        </nav>
+
+        <main>
+            <section class="contact-header" data-aos="fade-up">
+                <h1>Ayo Ngobrol</h1>
+                <p>Terbuka untuk feedback, kolaborasi, atau sekadar diskusi seputar web development.</p>
+            </section>
+
+
+            <section class="contact-content" data-aos="fade-up">
+                <div class="contact-info">
+                    <h2>Info Kontak</h2>
+                    <p>Kamu bisa menghubungi saya melalui:</p>
+                    
+                    <ul>
+                        <li>
+                            <i class="fa-solid fa-envelope"></i>
+                            <a href="mailto:hartantoyudhis06@gmail.com">hartantoyudhis06@gmail.com</a>
+                        </li>
+                        <li>
+                            <i class="fa-brands fa-github"></i>
+                            <a href="https://github.com/YudhistiraPutra-96" target="_blank" rel="noopener noreferrer">github.com/YudhistiraPutra-96</a>
+                        </li>
+                        <li>
+                            <i class="fa-brands fa-linkedin"></i>
+                            <a href="https://www.linkedin.com/in/yudhistira-putra-hartanto-b687ab411" target="_blank" rel="noopener noreferrer">LinkedIn</a>
+                        </li>
+                    </ul>
+                </div>
+
+                <div class="contact-form">
+                    <h2>Kirim Pesan</h2>
+                    <form action="#" method="POST">
+                        <div class="form-group">
+                            <label for="nama">Nama</label>
+                            <input type="text" id="nama" name="nama" placeholder="Masukkan nama kamu" required>
+                        </div>
+                        
+                        <div class="form-group">
+                            <label for="email">Email</label>
+                            <input type="email" id="email" name="email" placeholder="Masukkan email kamu" required>
+                        </div>
+                        
+                        <div class="form-group">
+                            <label for="pesan">Pesan</label>
+                            <textarea id="pesan" name="pesan" rows="5" placeholder="Tulis pesan atau pertanyaanmu di sini..." required></textarea>
+                        </div>
+                        
+                        <button type="submit" class="btn-submit">Kirim Pesan</button>
+                    </form>
+                </div>
+
+            </section>
+        </main>
+
+        <footer>
+            <p>© 2026 Yudhistira Putra Hartanto</p>
+            <p>
+                <a href="https://github.com/YudhistiraPutra-96" target="_blank" rel="noopener noreferrer">GitHub</a> · 
+                <a href="https://www.linkedin.com/in/yudhistira-putra-hartanto-b687ab411" target="_blank" rel="noopener noreferrer">LinkedIn</a> · 
+                <a href="mailto:hartantoyudhis06@gmail.com">Email</a>
+            </p>
+        </footer>
+    </body>
+</html>
